@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "lib": ["ES6"],
+    "strict": false,
+    "moduleResolution": "node10",
+    "ignoreDeprecations": "6.0",
+    "outFile": "./data/modules/index.js",
+    "rootDir": "./src",
+    "types": [],
+    "typeRoots": ["./node_modules"]
+  },
+  "files": [
+    "./node_modules/nakama-runtime/index.d.ts"
+  ],
+  "include": ["src/**/*"]
+}
